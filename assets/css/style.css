@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+html {
+    font-size: 6.25%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-size: cover;
+    background-image: url(../img/background.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    color: rgb(217, 255, 0);
+    background-color: rgba(0, 0, 0, 0.938);
+    font-size: 15rem;
+    align-items: center;
+    border-bottom: solid 1rem rgb(148, 148, 20);
+    justify-content: center;
+    font-family: 'Bungee Shade', cursive;
+    
+}
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 200vh;
+    background-color: rgba(0, 0, 0, 0.63);
+    display: flex;
+    font-size: 32rem;
+    padding: auto;
+    padding-top: 20rem;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    
+}
+
+
+
+.div-player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20rem;
+    padding: 10rem;
+    margin: 5rem;
+    background-color: rgba(0, 0, 0, 0.822);
+    border: solid 1rem rgb(148, 148, 20);
+}
+
+.foto {
+    border: solid 2rem rgb(148, 148, 20);
+    border-radius: 15rem;
+    width: 80rem;
+    height: 80rem;
+}
+
+.div-player strong {
+    margin: -30rem 100rem 0 0;
+    font-size: 25rem;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9, 85rem);
+    width: fit-content;
+    height: 380rem;
+    border: solid 1rem rgb(148, 148, 20);
+    padding: 15rem 15rem 100rem 15rem;
+    margin: 5rem 0 0 15rem;
+    gap: 5rem;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+.civs {
+    width: 81rem;
+    height: 81rem;
+}
+
